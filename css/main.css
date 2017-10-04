@@ -1,10 +1,137 @@
-h1 {
-	color: red;
+* {
+	color: #000;
 }
-.blue {
-	background-color: blue;
-	color: white;
+
+body {
+	color: #222222;
+	margin:0;
 }
-#bluest {
-	color: teal;
+
+a {
+	color: #222222;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222222;
+	text-decoration: underline;
+}
+
+
+div.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: .5;
+	cursor: default;
+}
+
+div.fa:hover {
+	opacity: 1.0;
+}
+
+span.share {
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: default;
+	position: relative;
+  top: -3px;
+}
+
+span.share:hover {
+	background-color: #e1e1e1;
+}
+
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+  width: 32px;
+  position: relative;
+  top: 9px;
+}
+
+div.searchBox {
+	position: absolute;
+	margin-top: 75px;
+	width: 100%;
+	text-align: center;
+}
+
+div.searchBox img {
+	padding: 142px 0 24px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+ul.nav {
+	float:right;
+	margin-right: 25px;
+}
+
+ul.nav li{
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+
+div.bottom {
+	float: bottom;
+}
+
+div.bottom {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	background-color: #f2f2f2;
+	line-height: 10px;
+	font-size: 14px;
+}
+
+div.buttons button {
+	font-weight: bold;
+	margin: 15px 5px;
+	padding: 0 10px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+div.buttons button:hover {
+	background-color: lightgrey;
+	border: solid 1px black;
+
+}
+
+ul.left {
+	display: inline-block;
+}
+
+ul.right {
+	display: inline-block;
+	float: right;
+
+}
+
+div.bottom li {
+	display: inline-block;
+	margin: 1px;
+	margin-right: 20px;
+}
+
+div.searchBox img {
+	width: 400px;
+	height: 145px;
+}
+
+div.buttons {
+	margin: 18px;
+	
+}
+
+div input {
+	width: 65%;
 }
